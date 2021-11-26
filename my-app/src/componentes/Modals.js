@@ -29,9 +29,9 @@ const ModalAdministrar = () => {
                 Selecciona un video
             </button>
             <div className="dropdown-menu ">
-              <button className="dropdown-item" >video1</button>
-              <button className="dropdown-item" >video2</button>
-              <button className="dropdown-item" >video3</button>
+              <button className="dropdown-item" >vi</button>
+              <button className="dropdown-item" >vi2</button>
+              <button className="dropdown-item" >vidg3</button>
             </div>
           </div>
           <div className="form-group">
