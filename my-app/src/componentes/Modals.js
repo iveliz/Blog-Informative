@@ -3,9 +3,6 @@ import React, { useState } from "react";
 
 const ModalAdministrar = () => {
   const id1="ModalBibliografia"
-  const id2="ModalVideos"
-
-  const id3="ModalVocabulario"
   return (
 <>
  
