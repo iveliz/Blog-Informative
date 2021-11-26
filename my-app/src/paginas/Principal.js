@@ -1,8 +1,6 @@
 import React from "react";
-//import "../css/Repositorio.css";
-//import ButtonsOfRepo from "../components/ButtonsOfRepo";
-//import HeaderMainPage from "../components/HeaderRepositorio";
-//import FooterRepositorio from "../components/FooterRepositorio";
+import "../css/Principal.css";
+
 
 function Repositorio() {
   return (
