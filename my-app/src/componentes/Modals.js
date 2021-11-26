@@ -4,6 +4,7 @@ import React, { useState } from "react";
 const ModalAdministrar = () => {
   const id1="ModalBibliografia"
   const id2="ModalVideos"
+
   const id3="ModalVocabulario"
   return (
 <>
@@ -16,6 +17,7 @@ const ModalAdministrar = () => {
  aria-labelledby="modalTitle" 
  data-bs-backdrop="static">
 
+
    <div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
       <div className="modal-content">
          <div className="modal-header">
@@ -27,10 +29,12 @@ const ModalAdministrar = () => {
           <div className="dropdown row justify-content-end">
             <button className="btn btn-primary dropdown-toggle"  id="darkMenu" data-bs-toggle="dropdown" aria-expanded="false" >
                 Selecciona un video
+                
             </button>
             <div className="dropdown-menu ">
               <button className="dropdown-item" >vi</button>
               <button className="dropdown-item" >vi2</button>
+
               <button className="dropdown-item" >vidg3</button>
             </div>
           </div>
@@ -40,13 +44,15 @@ const ModalAdministrar = () => {
               <input  className="form-control" id="input" placeholder="obligatorio"/>
             </div>
             <label for="input" className="control-label">Autor/Nombre de la página:</label>
-            <div className="col-lg-10">
+            <div className="col-lg-10"> 
+
               <input  className="form-control" id="input" placeholder="obligatorio"/>
             </div>
             <label for="input" className="control-label">Link:</label>
             <div className="col-lg-10">
               <input  className="form-control" id="input" placeholder="obligatorio"/>
             </div>
+
             <label for="input" className="control-label">Tipo:</label>
             <div class="input-group">
                 <input type="text" class="form-control" aria-label="dropInput"/>
@@ -56,6 +62,7 @@ const ModalAdministrar = () => {
                     <a class="dropdown-item" href="#">PDF</a>
                     <a class="dropdown-item" href="#">Página web</a>
                   </div>
+
                 </div>
               </div>
             <label for="input" className="control-label">Temas:</label>
