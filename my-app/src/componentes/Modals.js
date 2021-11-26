@@ -29,7 +29,7 @@ const ModalAdministrar = () => {
           <div className="dropdown row justify-content-end">
             <button className="btn btn-primary dropdown-toggle"  id="darkMenu" data-bs-toggle="dropdown" aria-expanded="false" >
                 Selecciona un video
-                
+
             </button>
             <div className="dropdown-menu ">
               <button className="dropdown-item" >vi</button>
@@ -83,25 +83,7 @@ const ModalAdministrar = () => {
     </div>  
 </div>
 
-<div className="modal fade" id={id2} tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
-   <div className="modal-dialog">
-      <div className="modal-content">
-         <div className="modal-header">
-             <h5 className="modal-title" id="modalTitle">Actualizacion</h5>
-             <button className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div> 
-         <div className="modal-body">
-            <p>
-                     
-           </p> 
-         </div>
-         <div className="modal-footer">
-             <button className="btn btn-secondary" data-bs-dismiss="modal">Guardar</button>
-             <button className="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
-         </div>
-      </div>
-    </div>  
-</div>
+
 </>
   );
 };
