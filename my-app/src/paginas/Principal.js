@@ -18,9 +18,14 @@ function Repositorio() {
           </div>
           <div className="texto">
             <p>El conocimiento es libre</p>
-          
           </div>
-          
+          <button
+              className="col-auto m-3 btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target={`#${modalId}`}
+            >
+              Administrar
+          </button>
         </div>
       </div>
     </>
